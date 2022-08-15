@@ -7,7 +7,6 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -153,7 +152,7 @@ class _MyHomePageState extends State<MyHomePage> {
         elevation: 0,
         tooltip: 'Increment',
         child: Icon(Icons.add),
-      ), // This trailing comma makes s-formatting nicer for build methods.
+      ), 
     );
   }
 }
